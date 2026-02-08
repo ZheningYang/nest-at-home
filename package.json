@@ -1,0 +1,14 @@
+{
+  "name": "nest-at-home",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev:web": "npm --prefix apps/web run dev",
+    "dev:api": "npm --prefix apps/api run start:dev",
+    "build:web": "npm --prefix apps/web run build",
+    "build:api": "npm --prefix apps/api run build",
+    "start:web": "npm --prefix apps/web run start",
+    "start:api": "npm --prefix apps/api run start:prod",
+    "install:all": "npm --prefix apps/web install && npm --prefix apps/api install"
+  }
+}
